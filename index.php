@@ -30,7 +30,7 @@
             $age = strip_tags($age);
             $age = htmlspecialchars($age);
 
-            echo "<label> Id: ".$random_id."<br/><lable/> <label> Name: ". $name."<br/><lable/> <label> Surname: ".$sname."<br/><lable/> <label for= br > Age: ".$age."<br/><lable/>";
+            echo '<label>Id: <label/>'. $random_id."<br/> <label>Name: <label/>". $name."<br/> <label>Surname: <label/>".$sname."<br/> <label>Age: <label/>".$age."<br/>";
         }
     ?>
 </body>
